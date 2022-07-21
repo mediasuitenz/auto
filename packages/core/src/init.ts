@@ -180,6 +180,7 @@ async function getPlugins() {
     Gradle: "Gradle",
     Maven: "maven",
     npm: "npm",
+    "Python pip": "pip",
   };
 
   const releasePlugin = await prompt<InputResponse>({
@@ -333,7 +334,7 @@ export default class InteractiveInit {
         message: `What git user would you like to make commits with?`,
         required: true,
         template: endent`
-        Name:   #{name} 
+        Name:   #{name}
         Email:  #{email}`,
       }
     );
@@ -459,7 +460,7 @@ export default class InteractiveInit {
 
     this.logger.log.note(endent`
       Next steps:
-      
+
         - Run "auto create-labels" to create your labels on GitHub
         - Add your environment variables to your CI builds
         - Add "auto shipit" at the end of you build/release process\n
