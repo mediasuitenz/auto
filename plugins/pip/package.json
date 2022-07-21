@@ -37,8 +37,11 @@
   },
   "dependencies": {
     "@auto-it/core": "link:../../packages/core",
+    "configparser": "^0.3.9",
+    "fast-glob": "^3.1.1",
     "fp-ts": "^2.5.3",
     "io-ts": "^2.1.2",
+    "parse-github-url": "^1.0.2",
     "tslib": "1.10.0"
   }
 }

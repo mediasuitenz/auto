@@ -13,10 +13,10 @@
   integrity sha512-K1kQv1BZVtMXQqdpNZt9Pgh85KwamsWX9gYyq1xG4cpyb+EacfMiNfumrju16piFXanCUrCR0P1DowPjV2qV/A==
 
 "@auto-it/bot-list@link:packages/bot-list":
-  version "10.37.1"
+  version "10.37.2"
 
 "@auto-it/core@link:packages/core":
-  version "10.37.1"
+  version "10.37.2"
   dependencies:
     "@auto-it/bot-list" "link:packages/bot-list"
     "@endemolshinegroup/cosmiconfig-typescript-loader" "^3.0.2"
@@ -59,7 +59,7 @@
     url-join "^4.0.0"
 
 "@auto-it/npm@link:plugins/npm":
-  version "10.37.1"
+  version "10.37.2"
   dependencies:
     "@auto-it/core" "link:packages/core"
     "@auto-it/package-json-utils" "link:packages/package-json-utils"
@@ -77,13 +77,13 @@
     user-home "^2.0.0"
 
 "@auto-it/package-json-utils@link:packages/package-json-utils":
-  version "10.37.1"
+  version "10.37.2"
   dependencies:
     parse-author "^2.0.0"
     parse-github-url "1.0.2"
 
 "@auto-it/released@link:plugins/released":
-  version "10.37.1"
+  version "10.37.2"
   dependencies:
     "@auto-it/bot-list" "link:packages/bot-list"
     "@auto-it/core" "link:packages/core"
@@ -93,7 +93,7 @@
     tslib "2.1.0"
 
 "@auto-it/version-file@link:plugins/version-file":
-  version "10.37.1"
+  version "10.37.2"
   dependencies:
     "@auto-it/core" "link:packages/core"
     fp-ts "^2.5.3"
@@ -5216,6 +5216,13 @@ config-chain@^1.1.11:
     ini "^1.3.4"
     proto-list "~1.2.1"
 
+configparser@^0.3.9:
+  version "0.3.9"
+  resolved "https://registry.yarnpkg.com/configparser/-/configparser-0.3.9.tgz#9c8219dd8682b3908a2a2069ae11d85635ab4d68"
+  integrity sha512-ZlHt4SyiCfcQmFkt+2OfUQG6PC4GLyXthfBHvCH9I4ZtDxqMaAkfeEP+bkgePWgO3869+dRMVIcjklwfZmPDjg==
+  dependencies:
+    mkdirp "^0.5.1"
+
 confusing-browser-globals@1.0.9:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.9.tgz#72bc13b483c0276801681871d4898516f8f54fdd"
@@ -9234,6 +9241,11 @@ jest-when@^3.2.1:
   dependencies:
     bunyan "^1.8.12"
     expect "^24.8.0"
+
+jest-when@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/jest-when/-/jest-when-3.5.1.tgz#33ab6f923661cf878cd08fe9df64b507934603db"
+  integrity sha512-o+HiaIVCg1IC95sMDKHU9G5v5N5l3UHqXvJpf0PgAMThZeQo4Hf5Sgoj+wpCBRGg4/KtzSAZZZEKNiLqE0i4eQ==
 
 jest-worker@27.0.0-next.5:
   version "27.0.0-next.5"
